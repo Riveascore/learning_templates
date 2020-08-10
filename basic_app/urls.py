@@ -7,5 +7,5 @@ app_name = 'basic_app'
 urlpatterns = [
     path('', views.index, name="index"),
     path('other', views.other, name="other"),
-    path('relative_url_templates', views.relative_url_templates, name="relative_url_templates"),
+    path('relative', views.relative_url_templates, name="relative"),
 ]
